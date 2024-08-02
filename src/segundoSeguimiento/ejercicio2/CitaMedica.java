@@ -29,65 +29,49 @@ public class CitaMedica {
     }
 
     public void cambiarHora(){
-        //Logica cambio de hora
     }
-
     public String getCodCita() {
         return CodCita;
     }
-
     public void setCodCita(String codCita) {
         CodCita = codCita;
     }
-
     public Date getFecha() {
         return fecha;
     }
-
     public void setFecha(Date fecha) {
         this.fecha = fecha;
     }
-
     public Date getHora() {
         return hora;
     }
-
     public void setHora(Date hora) {
         this.hora = hora;
     }
-
     public String getConsultorio() {
         return consultorio;
     }
-
     public void setConsultorio(String consultorio) {
         this.consultorio = consultorio;
     }
-
     public String getNombreMedico() {
         return nombreMedico;
     }
-
     public void setNombreMedico(String nombreMedico) {
         this.nombreMedico = nombreMedico;
     }
-
     public String getNombrePaciente() {
         return nombrePaciente;
     }
-
     public void setNombrePaciente(String nombrePaciente) {
         this.nombrePaciente = nombrePaciente;
     }
-
     public String getCentroMedico() {
         return centroMedico;
     }
-
     public void setCentroMedico(String centroMedico) {
         this.centroMedico = centroMedico;
     }
-
     @Override
     public String toString() {
         return "CitaMedica{" +
